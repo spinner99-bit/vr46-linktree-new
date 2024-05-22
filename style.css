@@ -5,137 +5,188 @@
 }
 
 body{
-	background: url(bg.jpg) no-repeat;
+	background: url(bg.jpg);
 	background-size: cover;
 	align-items: center;
 	justify-content: center;
 }
 
-.up-row0{
-	margin-top: 30px;
-	margin-bottom: 10px;
-	background-size: cover;
-}
-
-.up-row0 img{
-	width: 630px;
-	border-radius: 50px;
-}
-
 .contac-link-row1{
+	margin-top: 50px;
 	display: flex;
-}
-
-.contac-link-row1 img{
-	height: 70px;
-	width: auto;
-}
-
-.menu-per-c{
-	background-size: cover;
-	width: 300px;
-	border-radius: 30px;
-}
-
-.left-menu-per{
-	background-color: #32d851;
-}
-
-.right-menu-per{
-	margin-left: 30px;
-	background-color: #29aaec;
-}
-
-.upper-word-row1{
-	color: white;
-}
-
-.menu-per-c a{
-	text-decoration: none;
-}
-
-.cover-conta-row1{
-	background-size: cover;
-	padding: 40px 20px;
-}
-
-.wor-div-row1{
-	color: black;
-	align-content: center;
-	font-weight: 900;
 	justify-content: center;
 }
 
-.word-con-row1{
-	font-size: 22px;
-}
-
-.row2-down{
+.per-contac-cover{
 	background-size: cover;
-	background-color: white;
-	border-radius: 10px;
-	margin-top: 10px;
-	opacity: 0.85;
-}
-
-.row2-down a{
-	text-decoration: none;
-}
-
-.row2-down-conta{
-	display: flex;
-}
-
-.row2-down img{
-	height: 50px;
-	width: auto;
-	margin: 5px;
-	margin-left: 15px;
-}
-
-.row2-down-word{
-	font-weight: 900;
-	font-size: 18px;
+	width: 250px;
+	height: 230px;
+	border-radius: 30px;
 	align-content: center;
-	color: black;
-	margin-left: 20px;
 }
 
-.backup-row{
-	margin-top: 20px;
+.per-contac-cover a{
+	text-decoration: none;
+	color: white;
+	font-weight: 900;
+	font-size: 20px;
 }
 
-.backup-row-color1{
-	background-color: #32b9e6;
-}
-
-.backup-row-color{
-	margin-left: 30px;
+.contac-whatsapp-cover{
 	background-color: #32d851;
 }
 
-.promo-img-row1{
+.contac-telegram-cover{
+	margin-left: 40px;
+	background-color: #29aaec;
+}
+
+.contac-wechat-cover{
+	margin-left: 40px;
+	background-color: #32d851;
+}
+
+.per-contac-cover img{
+	height: 130px;
+	width: auto;
+}
+
+.contac-row1-word{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.contac-row2-all-cover{
 	margin-top: 10px;
 }
 
-.upper-promo-row1{
+.contac-row2-per{
+	background-color: transparent;
+	width: 830px;
+	height: 66px;
+	border-radius: 30px;
+	border: 3px solid black;
 	margin-top: 20px;
+	align-content: center;
 }
 
-.promo-img-row1 img{
-	height: 200px;
+.contac-row2-per a{
+	text-decoration: none;
+}
+
+.contac-row2-container-cover{
+	display: flex;
+	justify-content: left;
+}
+
+.contac-row2-left{
+	margin-left: 2px;
+	background-size: cover;
+}
+
+.contac-row2-left img{
+	width: 60px;
+	height: auto;
+}
+
+.contac-row2-right{
+	background-size: cover;
+	width: 100%;
+	align-content: center;
+}
+
+.contac-row2-wordi{
+	text-align: center;
+	font-weight: 900;
+	font-size: 20px;
+	color: black;
+}
+
+.contac-row2-per:hover{
+	background-color: #fbbc04;
+}
+
+.row1-pic-set{
+	margin-top: 30px;
+}
+
+.row2-pic-set{
+	margin-top: 10px;
+}
+
+.promotion-all-cover img{
 	width: auto;
+	height: 250px;
 	border-radius: 20px;
 }
 
-.pro-row1-next1{
+.pic-second{
 	margin-left: 10px;
 }
 
-.footer{
-	margin-bottom: 50px;
+.all-rebate-cover-full{
+	border: 4px solid black;
+	width: 830px;
+	margin-top: 20px;
+	border-radius: 30px;
 }
 
-.row2-down:hover{
-	opacity: 1.0;
+.rebate-word-container{
+	color: black;
+	font-weight: 900;
+	font-size: 30px;
+	margin-top: 10px;
+}
+
+.contac-rebate-cover{
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+.per-rebate-cover{
+	background-size: cover;
+	width: 230px;
+	height: 200px;
+	border-radius: 30px;
+	align-content: center;
+}
+
+.per-rebate-cover a{
+	text-decoration: none;
+	color: white;
+	font-weight: 900;
+	font-size: 16px;
+}
+
+.per-rebate-cover img{
+	height: 130px;
+	width: auto;
+}
+
+.rebate-row1-word{
+	margin-top: 5px;
+	margin-bottom: 13px;
+}
+
+.rebate-whatsapp-cover{
+	background-color: #32d851;
+}
+
+.rebate-telegram-cover{
+	margin-left: 20px;
+	background-color: #29aaec;
+}
+
+.rebate-wechat-cover{
+	margin-left: 20px;
+	background-color: #32d851;
+}
+
+.footer-div-rebate{
+	margin-bottom: 20px;
+}
+
+.footer-full-page{
+	margin-bottom: 100px;
 }
